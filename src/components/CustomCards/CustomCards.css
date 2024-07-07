@@ -1,0 +1,117 @@
+.customCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 26rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0.7rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.customCard-image{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+     }
+
+/* .customCard-price-one {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.customCard-price-two {
+    font-size: 0.7rem;
+    padding: 1px 1px;
+    border-radius: 8px;
+    background-color: rgb(245, 244, 244);
+    color: red;
+} */
+
+
+.customCard-title{
+    margin-top: -2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: 700;     
+}
+  
+.customCard-desc{
+        margin-top: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 0.9rem;
+        font-weight: 100;
+        width: 80%;
+    }
+
+.customCard-stars{
+    margin-top: 0.5rem;
+}
+
+.customCard-add-button{
+    font-size: 10px;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.customCard-price{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customCard-price-first{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 1rem;
+}
+
+.customCard-price-one {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.customCard-price-two{
+    margin-top: 10px;
+    font-size: 12px;
+    background: rgb(163, 159, 159);
+}
+
+.yes{
+    font-size: 1rem !important;
+}
+
+.customCard-stars{
+    width: 50%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
